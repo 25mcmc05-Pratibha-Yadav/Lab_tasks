@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabbed Navigation</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+<h2>Simple jQuery Tabs</h2>
+
+<div id="tabs">
+
+    <ul class="tab-links">
+        <li data-tab="home" tabindex="0">Home</li>
+        <li data-tab="about" tabindex="0">About</li>
+        <li data-tab="contact" tabindex="0">Contact</li>
+    </ul>
+
+    <div id="home" class="tab-content">
+        <h3>Home</h3>
+        <p>Home section</p>
+    </div>
+
+    <div id="about" class="tab-content">
+        <h3>About</h3>
+        <p>About section</p>
+    </div>
+
+    <div id="contact" class="tab-content">
+        <h3>Contact</h3>
+        <p>Contact section</p>
+    </div>
+
+</div>
+
+<script>
+$(function(){
+    $("#tabs").myTabs({
+        activeClass: "active",
+        speed: 300,
+        defaultTab: 0
+    });
+});
+</script>
+
+</body>
+</html>
+

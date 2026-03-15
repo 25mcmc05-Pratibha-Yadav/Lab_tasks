@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #60a5fa, #2563eb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+
+.coordinate {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+.coordinate input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.coordinate input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.coordinate button {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.coordinate button:hover {
+  background: #1e40af;
+}
+
+
+#display {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: inset 0 0 0 1px #e5e7eb;
+}
+
+
+#display p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #1f2933;
+}
+
+#display p:last-child {
+  margin-bottom: 0;
+}
+
+
+#display p:first-child {
+  font-weight: 600;
+}
+
+
+@media (max-width: 480px) {
+  .coordinate {
+    padding: 1.2rem;
+  }
+}

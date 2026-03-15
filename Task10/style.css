@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    margin: 40px;
+}
+
+#tabs {
+    width: 500px;
+}
+
+.tab-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.tab-links li {
+    padding: 10px 15px;
+    background: #eee;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.tab-links li.active {
+    background: steelblue;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.tab-content.show {
+    display: block;
+}

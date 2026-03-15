@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple To-Do List</title>
+    <link rel="stylesheet" href="design5.css">
+</head>
+<body>
+
+    <h2 style = "font-family:'Times New Roman', Times, serif;">My To-Do List</h2>
+
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <input type="date" id="dateInput">
+    <button onclick="addTask()">Add Task</button>
+
+    <br><br>
+
+    <button onclick="showAll()">All</button>
+    <button onclick="showCompleted()">Completed</button>
+    <button onclick="showPending()">Pending</button>
+
+    <ul id="taskList"></ul>
+
+    <script src="task5.js"></script>
+</body>
+</html>

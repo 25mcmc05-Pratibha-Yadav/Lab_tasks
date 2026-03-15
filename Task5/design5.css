@@ -1,0 +1,30 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial;
+    padding: 20px;
+}
+
+h2 {
+    color:rgb(210, 154, 82);
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+li {
+    margin: 8px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}

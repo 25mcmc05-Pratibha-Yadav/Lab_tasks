@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <book id="B011">
+        <title>The Silent Patient</title>
+        <author>Alex Michaelides</author>
+        <genre>Psychological Thriller</genre>
+        <price currency="USD">16.99</price>
+        <publication_date>2019-02-05</publication_date>
+    </book>
+
+    <book id="B012">
+        <title>Atomic Habits</title>
+        <author>James Clear</author>
+        <genre>Self-Help</genre>
+        <price currency="USD">18.00</price>
+        <publication_date>2018-10-16</publication_date>
+    </book>
+
+    <book id="B013">
+        <title>The Midnight Library</title>
+        <author>Matt Haig</author>
+        <genre>Fantasy</genre>
+        <price currency="USD">17.50</price>
+        <publication_date>2020-08-13</publication_date>
+    </book>
+
+    <book id="B014">
+        <title>Becoming</title>
+        <author>Michelle Obama</author>
+        <genre>Biography</genre>
+        <price currency="USD">19.99</price>
+        <publication_date>2018-11-13</publication_date>
+    </book>
+
+    <book id="B015">
+        <title>The Martian</title>
+        <author>Andy Weir</author>
+        <genre>Science Fiction</genre>
+        <price currency="USD">14.99</price>
+        <publication_date>2011-09-27</publication_date>
+    </book>
+
+    <book id="B016">
+        <title>Gone Girl</title>
+        <author>Gillian Flynn</author>
+        <genre>Mystery</genre>
+        <price currency="USD">13.49</price>
+        <publication_date>2012-06-05</publication_date>
+    </book>
+
+    <book id="B017">
+        <title>The Power of Now</title>
+        <author>Eckhart Tolle</author>
+        <genre>Spiritual</genre>
+        <price currency="USD">15.25</price>
+        <publication_date>1997-09-29</publication_date>
+    </book>
+
+    <book id="B018">
+        <title>Dune</title>
+        <author>Frank Herbert</author>
+        <genre>Science Fiction</genre>
+        <price currency="USD">18.75</price>
+        <publication_date>1965-08-01</publication_date>
+    </book>
+
+    <book id="B019">
+        <title>The Girl on the Train</title>
+        <author>Paula Hawkins</author>
+        <genre>Thriller</genre>
+        <price currency="USD">12.89</price>
+        <publication_date>2015-01-13</publication_date>
+    </book>
+
+    <book id="B020">
+        <title>Educated</title>
+        <author>Tara Westover</author>
+        <genre>Memoir</genre>
+        <price currency="USD">17.99</price>
+        <publication_date>2018-02-20</publication_date>
+    </book>
+
+</catalog>
