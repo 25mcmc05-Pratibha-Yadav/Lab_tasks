@@ -174,7 +174,7 @@ $("#email").on("input",function (){
 $("#form").submit(function (e) { 
     e.preventDefault();
     if(validateName() && validateEmail() && validatePassword()){
-        alert("sahi kar be")
+        alert("Invalid Crendentials")
     }
     else{
         alert("Cannot submit the form");
