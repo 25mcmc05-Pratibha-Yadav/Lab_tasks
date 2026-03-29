@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  background: #673ab7;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+}
